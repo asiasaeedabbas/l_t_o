@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:l_t_o/screens/Home.dart';
-import 'package:l_t_o/screens/Login.dart';
+import 'package:l_t_o/screens/KobzhinMember.dart';
 
 void main() {
   runApp(const MyApp());
@@ -41,6 +41,7 @@ class _MyHomePageState extends State<MyHomePage> {
   void changeWidget(Widget newWidget){
     setState(() {
       currentWidget=newWidget;
+      Navigator.pop(context);
     });
   }
 
@@ -84,9 +85,9 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
         ListTile(
           leading: const Icon(Icons.account_circle),
-          title: const Text('چونە ژوورەوە'),
+          title: const Text('ئەندامی کۆبژحن'),
           onTap: (){
-            changeWidget(Login());
+            changeWidget(KobzhinMember());
 
           },
         ),
@@ -94,21 +95,7 @@ class _MyHomePageState extends State<MyHomePage> {
     ),
     ),
 
-    body: Center(
-
-        child: Column(
-
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            const Text(
-              'کۆبژین',
-
-            ),
-            currentWidget
-          ],
-        ),
-
-      ),
+    body: currentWidget
     );
   }
 }

@@ -1,18 +1,19 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class Login extends StatefulWidget {
-  const Login({Key? key}) : super(key: key);
+class KobzhinMember extends StatefulWidget {
+  const KobzhinMember({Key? key}) : super(key: key);
 
   @override
-  _LoginState createState() => _LoginState();
+  _KobzhinMemberState createState() => _KobzhinMemberState();
 }
 
-class _LoginState extends State<Login> {
+class _KobzhinMemberState extends State<KobzhinMember> {
   @override
   Widget build(BuildContext context) {
     return Center(child: Row(
       children: [
+
         Text('Enter your email'),
         Text('Enter your password'),
       ],

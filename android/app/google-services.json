@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "330325041722",
+    "project_id": "kobzhin",
+    "storage_bucket": "kobzhin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330325041722:android:c6b04aaf14568a67cacb03",
+        "android_client_info": {
+          "package_name": "com.example.l_t_o"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "330325041722-b9glv5kfmhdgq2gqn6e0sg4eqv18j1j0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwdWyAQh4t3xZmAJ6a-94IOAnaWrFaEqg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "330325041722-b9glv5kfmhdgq2gqn6e0sg4eqv18j1j0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
